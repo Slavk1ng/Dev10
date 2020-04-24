@@ -30,6 +30,7 @@ xhr.open('GET', 'https://barrycumbie.github.io/cis-376/scripts/dev10-data.json',
 xhr.send(null);                                 // Send the request
 
 // When working locally in Firefox, you may see an error saying that the JSON is not well-formed.
+
 // This is because Firefox is not reading the correct MIME type (and it can safely be ignored).
 
 // If you get it on a server, you may need to se the MIME type for JSON on the server (application/JSON).
