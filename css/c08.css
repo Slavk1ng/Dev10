@@ -177,7 +177,7 @@ input[type=submit]:hover {
 
 .button {
   background-color: #FF6433;
-  border: none;
+  border: black;
   color: white;
   padding: 20px 36px;
   text-align: center;
